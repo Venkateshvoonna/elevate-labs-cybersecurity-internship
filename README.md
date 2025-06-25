@@ -59,14 +59,51 @@ This task reinforced the importance of:
 - Using tools like Nmap and Wireshark for hands-on insight
 
 ---
+# 🛡 Cybersecurity Lab – Phishing Email Analysis (Task 2)
 
-## 🙋‍♀️ About Me
+This repository contains the analysis and report for *Task 2: Analyze a Phishing Email Sample* as part of the *Cybersecurity Internship* at *Elevate Labs*.
 
-**👩 Name:** Voonna Venkatesh 
-**🎓 Role:** Cybersecurity Intern @ Elevate Labs  
-**🔗 LinkedIn:** [linkedin.com/in/voonna-venkatesh/]((https://www.linkedin.com/in/voonna-venkatesh/))  
+## 📌 Objective
 
+To analyze a suspicious phishing email and identify key indicators of a phishing attack using various open-source tools.
 
 ---
 
-> ⚠️ **Disclaimer:** This scanning task was performed in a safe, authorized lab environment. Unauthorized scanning of networks without permission is prohibited and unethical.
+## 🧪 Tools Used
+
+- [PhishTank](https://www.phishtank.com/)
+- [MXToolbox](https://mxtoolbox.com/)
+- [VirusTotal](https://www.virustotal.com/)
+- [WHOIS Lookup](https://whois.domaintools.com/)
+
+---
+
+## 🔍 Analysis Summary
+
+The phishing email analyzed was crafted to impersonate the *SMBC Bank* and used tactics such as:
+- *Spoofed email address* (noreply@smbc-cardnb.club)
+- *Suspicious link* redirecting to a phishing domain
+- *Urgent language* prompting the user to verify their account
+- *Mismatched URL* that does not belong to the legitimate SMBC domain
+
+---
+
+## 📥 Sample Email Content
+
+```text
+Subject: [Important] Your SMBC Card Account Needs Immediate Attention
+
+From: noreply@smbc-cardnb.club
+
+Dear Customer,
+
+We have detected suspicious activity in your account and have temporarily suspended access for your protection.
+
+👉 Verify My Account: https://smbc-cardnb.club
+
+Failure to act within 24 hours may result in permanent account suspension.
+
+Thank you for your cooperation,  
+SMBC Card Security Team
+
+
